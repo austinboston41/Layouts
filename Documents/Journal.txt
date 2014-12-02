@@ -1,0 +1,67 @@
+﻿Oct 24: Austin
+        I forgot to make journal entries before this so this is the start. So far me and danny have had difficulties setting up android studio and getting my galaxy s5 to run the app. Yesterday I got my github to work on my computer and push the code to the git from android studio. Today we are going to try and get the app to do something, and i’m gonna show danny what to do to get git working on his computer.
+
+
+Oct 24: Danny
+        Github has been set up on my computer and is good to go.
+        I am currently following a tutorial at the website.
+
+
+Oct 27: Austin + Danny
+        Got libGDX to work.
+        had difficulties due to the fact that after switching to android studio we uninstalled eclipse and the android sdk. 
+
+
+Oct 28: Austin + Danny
+        Got github to work with both accounts.
+
+
+Oct 30: Austin + Danny
+        Added personal graphics to the app and set up our layout.
+
+
+Nov 3: Austin + Danny
+        We learned about the problems faced when trying to find our game because of the name “MyGdxGame”. So we decided to change the name and icon.
+
+
+Nov 4: Austin + Danny
+        Started working with image buttons and are trying to complete a tutorial.
+
+
+Nov 6: Austin + Danny
+        We didn’t have much success with image buttons so at the recommendation of matt we are switching to textbuttons and we are starting our scratch.
+
+
+Nov 11: Austin + Danny
+        Completed tutorial for text buttons. Now we will replace our previous images with buttons.
+
+
+Nov 12:  Austin + Danny
+        Started integration of buttons into our main project. Worked on layout.
+
+
+Nov 13:  Austin + Danny
+        Made spritesheets for all of the buttons.
+
+
+Nov 14:  Austin + Danny
+        Worked on making buttons disappear when a button is clicked (included in current commit). We also attempted making a back button to return to the main screen, this is not working yet for the latest version.
+        
+Nov 17: Austin + Danny
+        Worked on back button function. We had to catch the back key and prevent the OS from using to exit the app. We also explored rumble.
+
+
+Nov 21: Austin + Danny 
+        We looked into the tutorials TheLazyTryHard has provided on his youtube channel.
+
+
+Nov 24: Austin + Danny 
+We have started another scratch program for layouts.
+
+
+Nov 28: Austin + Danny 
+Austins computer undergoes vigorous surgery.
+
+
+Dec 1: Austin + Danny 
+Transferred code from Danny’s laptop onto Austins tutorial is working.
