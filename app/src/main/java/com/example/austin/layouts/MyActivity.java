@@ -17,7 +17,7 @@ public class MyActivity extends Activity {
     RadioButton rb1, rb2, rb3, rb4;
     String sToast;
     ImageView image;
-    int nCount=0, nScore=0,nAns=1;
+    int nCount=0, nScore=0, nAns=1;
 
     public void onRadioButtonClicked(View view) {
         boolean checked = ((RadioButton) view).isChecked();
