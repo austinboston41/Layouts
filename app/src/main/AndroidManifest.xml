@@ -5,17 +5,21 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Guess that Game"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MyActivity"
-            android:label="@string/app_name" >
+            android:name=".MenuActivity"
+            android:label="Guess that Game" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MyActivity" >
+    </activity>
+        //move this to beginnign to be primary activity
     </application>
 
 </manifest>
