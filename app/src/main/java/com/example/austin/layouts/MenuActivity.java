@@ -111,6 +111,8 @@ public class MenuActivity extends Activity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Intent nextScreen=new Intent(getApplicationContext(), SettingsActivity.class);
+            startActivity(nextScreen);
             return true;
         }
 
