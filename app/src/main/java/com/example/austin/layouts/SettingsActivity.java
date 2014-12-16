@@ -3,20 +3,46 @@ package com.example.austin.layouts;
 import android.app.Activity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Switch;
+
+import junit.framework.Test;
 
 
 public class SettingsActivity extends Activity {
     Button butPlay;
+    MediaPlayer mpMusic;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_settings);
+        Switch toggle = (Switch) findViewById(R.id.switchSound);
+        toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked) {
+                    mpMusic = MediaPlayer.create(SettingsActivity.this, R.raw.musicfile);
+                    mpMusic.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+
+                        @Override
+                        public void onCompletion(MediaPlayer mp) {
+                            mp.release();
+                        }
+
+                    });
+                    mpMusic.start();
+                } else {
+                    // The toggle is disabled
+                }
+            }
+        });
         butPlay = (Button) findViewById(R.id.butSc1);
         butPlay.setOnClickListener(new View.OnClickListener() {
             @Override

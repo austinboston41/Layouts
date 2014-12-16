@@ -54,8 +54,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Sound"
-        android:id="@+id/switch1"
-        android:checked="true"
+        android:id="@+id/switchSound"
+        android:checked="false"
         android:layout_below="@+id/tvTitle"
         android:layout_alignRight="@+id/butSc3"
         android:layout_alignEnd="@+id/butSc3" />
