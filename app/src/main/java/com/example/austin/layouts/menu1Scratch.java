@@ -1,7 +1,6 @@
 package com.example.austin.layouts;
 
 import android.app.Activity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,34 +9,19 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class SettingsActivity extends Activity {
+public class menu1Scratch extends Activity {
     Button butPlay;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_settings);
-        butPlay = (Button) findViewById(R.id.butSc1);
-        butPlay.setOnClickListener(new View.OnClickListener() {
+        setContentView(R.layout.scratch_menu1);
+        butPlay = (Button) findViewById(R.id.butPlay);
+        butPlay.setOnClickListener(new View.OnClickListener(){
+
             @Override
-            public void onClick(View v) {
-                Intent nextScreen = new Intent(getApplicationContext(), menu1Scratch.class);
-                startActivity(nextScreen);
-            }
-        });
-        butPlay = (Button) findViewById(R.id.butSc2);
-        butPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent nextScreen = new Intent(getApplicationContext(), imgScratch.class);
-                startActivity(nextScreen);
-            }
-        });
-        butPlay = (Button) findViewById(R.id.butSc3);
-        butPlay.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent nextScreen = new Intent(getApplicationContext(), rbScratch.class);
+            public void onClick(View v){
+                Intent nextScreen=new Intent(getApplicationContext(), menu2Scratch.class);
                 startActivity(nextScreen);
             }
         });

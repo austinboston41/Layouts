@@ -76,3 +76,39 @@ Nov 28:
 
 Dec 1:
         Transferred code from Danny’s laptop onto Austins tutorial is working.
+
+Dec 2:
+        Austin is starting work on using radio buttons,
+        and getting buttons to switch images and danny is working on having separate activities.
+
+Dec 4:
+        We have everything on the screen and we have created two activities,
+        but we still need to make everything work.
+
+Dec 5:
+        We have gotten the radio buttons working in a group,
+        the button makes the image change but we have yet to figure out
+        how to switch activities.
+
+Dec 8:
+        Austin updated and changed the gradle but danny hasn't so we will be having him update.
+
+
+Dec 9:
+        This update has broken Dannys gradle
+        and what Austin did to fix his issues did not solve Danny's problems.
+
+Dec 10:
+        We still have yet to solve Danny's issue.
+        He can code and can commit but he can not run anything.
+        He has got what we think should work on his computer.
+
+Dec 12
+        We have determined that Danny's issue was not with the gradle but his registry
+        I am going to just add his code to mine and try to get it working.
+        I will have to separate them again later for a scratch.
+
+Dec 15:
+        Danny's computer is a hunk of shit.
+        Also I got the menu working and I didn't feel like reading so I made a settings activity.
+

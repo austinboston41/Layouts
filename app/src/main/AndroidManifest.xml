@@ -16,8 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MyActivity"></activity>
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".MyActivity">
+
+        </activity>
+
+        <activity android:name=".SettingsActivity">
+
+        </activity>
+
+        <activity android:name=".imgScratch">
+
+        </activity>
+
+        <activity android:name=".rbScratch">
+
+        </activity>
+
+        <activity android:name=".menu1Scratch">
+
+        </activity>
+
+        <activity android:name=".menu2Scratch">
+
+        </activity>
+
     </application>
 
 </manifest>

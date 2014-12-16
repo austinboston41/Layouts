@@ -14,8 +14,51 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Guess That Game!"
+        android:text="Settings and Scratch&apos;s"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Scratch"
+        android:id="@+id/butSc1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image Switching Scratch"
+        android:id="@+id/butSc2"
+        android:layout_above="@+id/butSc1"
+        android:layout_alignLeft="@+id/butSc1"
+        android:layout_alignStart="@+id/butSc1"
+        android:layout_alignRight="@+id/butSc1"
+        android:layout_alignEnd="@+id/butSc1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Button Scratch"
+        android:id="@+id/butSc3"
+        android:layout_above="@+id/butSc2"
+        android:layout_alignLeft="@+id/butSc2"
+        android:layout_alignStart="@+id/butSc2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound"
+        android:id="@+id/switch1"
+        android:checked="true"
+        android:layout_below="@+id/tvTitle"
+        android:layout_alignRight="@+id/butSc3"
+        android:layout_alignEnd="@+id/butSc3" />
 
 
 </RelativeLayout>
