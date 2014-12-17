@@ -28,9 +28,6 @@ public class SettingsActivity extends Activity {
         Switch toggle = (Switch) findViewById(R.id.switchSound);
         toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                //String sToast = "Now Playing: Re-Birthday";
-                //Toast toMusic = Toast.makeText(SettingsActivity.this, sToast,Toast.LENGTH_SHORT);
-                //toMusic.show();
                 if (isChecked) {
                     mpMusic = MediaPlayer.create(SettingsActivity.this, R.raw.musicfile);
                     mpMusic.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
