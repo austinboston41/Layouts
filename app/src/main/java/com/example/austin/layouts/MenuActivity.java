@@ -13,7 +13,6 @@ import android.widget.TextView;
 
 public class MenuActivity extends Activity {
     Button butPlay;
-    TextView tvScore;
 
     public void onRadioButtonClicked(View view) {
         boolean checked = ((RadioButton) view).isChecked();
