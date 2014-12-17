@@ -39,7 +39,7 @@ public class SettingsActivity extends Activity {
                     });
                     mpMusic.start();
                 } else {
-                    // The toggle is disabled
+                    mpMusic.pause();
                 }
             }
         });

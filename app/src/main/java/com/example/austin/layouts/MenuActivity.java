@@ -8,10 +8,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.TextView;
 
 
 public class MenuActivity extends Activity {
     Button butPlay;
+    TextView tvScore;
+
     public void onRadioButtonClicked(View view) {
         boolean checked = ((RadioButton) view).isChecked();
         switch(view.getId()) {
