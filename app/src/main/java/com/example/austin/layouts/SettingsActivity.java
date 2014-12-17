@@ -37,6 +37,7 @@ public class SettingsActivity extends Activity {
 
                         @Override
                         public void onCompletion(MediaPlayer mp) {
+                            mp.reset();
                             mp.release();
 
                         }
