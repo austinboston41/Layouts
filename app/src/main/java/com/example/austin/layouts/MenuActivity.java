@@ -65,16 +65,6 @@ public class MenuActivity extends Activity {
                 if (checked) {
                     break;
                 }
-                break;
-            case R.id.rbL11:
-                if (checked) {
-                    break;
-                }
-                break;
-            case R.id.rbL12:
-                if (checked) {
-                    break;
-                }
                 break;   
         }
     }

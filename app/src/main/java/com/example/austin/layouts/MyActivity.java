@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RadioButton;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MyActivity extends Activity {
@@ -94,18 +93,18 @@ public class MyActivity extends Activity {
                 if(nCount==4){
                     image.setImageResource(R.drawable.i5);
                     nAns=1;
-                    rb1.setText("rockstar games");
+                    rb1.setText("Rockstar Games");
                     rb2.setText("rice");
-                    rb3.setText("right wing games");
-                    rb4.setText("thing that starts with r");
+                    rb3.setText("Rockstar Gaming");
+                    rb4.setText("Rockstars");
                 }
                 if(nCount==5){
                     image.setImageResource(R.drawable.i6);
                     nAns=2;
-                    rb1.setText("ps3");
-                    rb2.setText("playstation");
-                    rb3.setText("sony");
-                    rb4.setText("ps");
+                    rb1.setText("Ps3");
+                    rb2.setText("Playstation");
+                    rb3.setText("Sony");
+                    rb4.setText("Ps");
                 }
             }
         });
