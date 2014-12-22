@@ -100,5 +100,6 @@ public class SettingsActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 }
-
+//http://stackoverflow.com/questions/9464087/how-to-read-xml-file-in-android
+//http://stackoverflow.com/questions/12421814/how-can-i-read-a-text-file-in-android
 
